@@ -15,6 +15,7 @@ class Window(QMainWindow, applicant.Ui_MainWindow):
             f.write("Сумма баллов ЕГЭ: " + self.lineEdit_3.text() + "\n")
             f.write("Желаемое направление: " + self.comboBox.currentText() + "\n\n")
 
+print("Масальский А.В., АС Абитуриент")
 app = QApplication(sys.argv)
 window = Window()
 window.show()
